@@ -1,0 +1,16 @@
+scheme,fold,max_features,min_samples_leaf
+spatial_residual,0,0.33,1
+spatial_residual,1,0.2,1
+spatial_residual,2,0.33,1
+spatial_residual,3,0.2,1
+spatial_residual,4,0.33,1
+spatial_response,0,0.33,1
+spatial_response,1,0.33,1
+spatial_response,2,0.2,1
+spatial_response,3,0.2,1
+spatial_response,4,0.2,1
+random,0,0.2,1
+random,1,0.33,1
+random,2,0.2,1
+random,3,0.2,1
+random,4,0.33,1

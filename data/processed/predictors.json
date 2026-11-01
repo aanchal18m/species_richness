@@ -1,0 +1,191 @@
+{
+  "response": "richness_c090",
+  "N": 3,
+  "coverage_min": 0.9,
+  "units_min": 20,
+  "counts": {
+    "cells": 32676,
+    "with_records": 15598,
+    "train_eligible": 3236,
+    "andaman_nicobar_excluded": 19,
+    "prediction_targets": 29440
+  },
+  "closure_dropped": "lc_crop",
+  "vif_max": 10.0,
+  "candidates": [
+    "bio01",
+    "bio02",
+    "bio03",
+    "bio04",
+    "bio05",
+    "bio06",
+    "bio07",
+    "bio08",
+    "bio09",
+    "bio10",
+    "bio11",
+    "bio12",
+    "bio13",
+    "bio14",
+    "bio15",
+    "bio16",
+    "bio17",
+    "bio18",
+    "bio19",
+    "elev_mean",
+    "elev_sd",
+    "elev_range",
+    "slope_mean",
+    "lc_tree",
+    "lc_shrub",
+    "lc_grass",
+    "lc_crop",
+    "lc_built",
+    "lc_bare",
+    "lc_snow",
+    "lc_water",
+    "lc_wetland",
+    "lc_mangrove",
+    "lc_moss",
+    "lc_shannon"
+  ],
+  "selected": [
+    "bio02",
+    "bio03",
+    "bio08",
+    "bio09",
+    "bio13",
+    "bio14",
+    "bio15",
+    "bio18",
+    "bio19",
+    "elev_mean",
+    "elev_sd",
+    "lc_tree",
+    "lc_shrub",
+    "lc_grass",
+    "lc_built",
+    "lc_bare",
+    "lc_snow",
+    "lc_water",
+    "lc_wetland",
+    "lc_mangrove",
+    "lc_moss",
+    "lc_shannon"
+  ],
+  "screening_log": [
+    {
+      "dropped": "lc_crop",
+      "reason": "land-cover closure: reference class (cropland, fixed)"
+    },
+    {
+      "dropped": "bio05",
+      "vif": Infinity,
+      "largest": "bio05",
+      "largest_vif": Infinity,
+      "reason": "largest VIF"
+    },
+    {
+      "dropped": "bio11",
+      "vif": 2293.721203072647,
+      "largest": "bio11",
+      "largest_vif": 2293.721203072647,
+      "reason": "largest VIF"
+    },
+    {
+      "dropped": "bio01",
+      "vif": 350.4079799876176,
+      "largest": "bio01",
+      "largest_vif": 350.4079799876176,
+      "reason": "largest VIF"
+    },
+    {
+      "dropped": "bio06",
+      "vif": 281.9481762964907,
+      "largest": "bio06",
+      "largest_vif": 281.9481762964907,
+      "reason": "largest VIF"
+    },
+    {
+      "dropped": "bio07",
+      "vif": 224.64656029661947,
+      "largest": "bio07",
+      "largest_vif": 224.64656029661947,
+      "reason": "largest VIF"
+    },
+    {
+      "dropped": "bio12",
+      "vif": 53.882186128566914,
+      "largest": "bio16",
+      "largest_vif": 180.97941104040453,
+      "reason": "bio16 had the largest VIF; bio12 dropped instead (clipped at 6553.5 mm)"
+    },
+    {
+      "dropped": "bio16",
+      "vif": 126.24109124514224,
+      "largest": "bio16",
+      "largest_vif": 126.24109124514224,
+      "reason": "largest VIF"
+    },
+    {
+      "dropped": "elev_range",
+      "vif": 29.75245008270212,
+      "largest": "elev_range",
+      "largest_vif": 29.75245008270212,
+      "reason": "largest VIF"
+    },
+    {
+      "dropped": "bio10",
+      "vif": 22.943533128201647,
+      "largest": "bio10",
+      "largest_vif": 22.943533128201647,
+      "reason": "largest VIF"
+    },
+    {
+      "dropped": "bio17",
+      "vif": 15.959442684939736,
+      "largest": "bio17",
+      "largest_vif": 15.959442684939736,
+      "reason": "largest VIF"
+    },
+    {
+      "dropped": "bio04",
+      "vif": 15.774441862350061,
+      "largest": "bio04",
+      "largest_vif": 15.774441862350061,
+      "reason": "largest VIF"
+    },
+    {
+      "dropped": "slope_mean",
+      "vif": 14.808110734692788,
+      "largest": "slope_mean",
+      "largest_vif": 14.808110734692788,
+      "reason": "largest VIF"
+    }
+  ],
+  "final_vif": {
+    "bio02": 2.621,
+    "bio03": 3.572,
+    "bio08": 9.227,
+    "bio09": 4.312,
+    "bio13": 6.863,
+    "bio14": 2.775,
+    "bio15": 4.754,
+    "bio18": 3.447,
+    "bio19": 3.444,
+    "elev_mean": 13.492,
+    "elev_sd": 3.752,
+    "lc_tree": 3.464,
+    "lc_shrub": 1.601,
+    "lc_grass": 1.797,
+    "lc_built": 1.389,
+    "lc_bare": 1.293,
+    "lc_snow": 1.46,
+    "lc_water": 1.377,
+    "lc_wetland": 1.113,
+    "lc_mangrove": 1.097,
+    "lc_moss": 1.534,
+    "lc_shannon": 3.053
+  },
+  "corr_bio12_bio16_train": 0.9507
+}

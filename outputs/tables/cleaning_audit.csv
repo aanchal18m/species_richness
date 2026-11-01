@@ -1,0 +1,21 @@
+filter,dropped,stage,upstream_estimate,kept
+input (download rows),0,input,,28449817
+"class Aves, country IN (GBIF predicate)",0,server (GBIF predicate download),,28449817
+"year 2015-2024, months Nov-Feb (GBIF predicate)",0,server (GBIF predicate download),,28449817
+"has coordinate, no geospatial issue (GBIF predicate)",0,server (GBIF predicate download),,28449817
+basisOfRecord not FOSSIL/LIVING_SPECIMEN (GBIF predicate),0,server (GBIF predicate download),0.0,28449817
+not within 2 km of a country/province centroid (GBIF predicate),0,server (GBIF predicate download),1558.0,28449817
+no TAXON_MATCH_FUZZY issue (GBIF predicate),0,server (GBIF predicate download),13684.0,28449817
+has coordinates,0,local,,28449817
+"coordinates not (0,0)",0,local,,28449817
+coordinates in valid range,0,local,,28449817
+georeferencing finer than 10 km,16438,local,,28433379
+acceptable basisOfRecord,10,local,,28433369
+not flagged absent,203,local,,28433166
+year >= 2015,0,local,,28433166
+resolved to species rank,763296,local,,27669870
+"not within a known centroid list (clean.py; no list supplied, not run locally)",0,local,,27669870
+exact duplicate records,109686,local,,27560184
+whole winters 2015/16-2023/24,2693623,local,,24866561
+eventDate resolves to a single day,33,local,,24866528
+falls in a grid cell (land fraction >= 0.5),856454,local,,24010074

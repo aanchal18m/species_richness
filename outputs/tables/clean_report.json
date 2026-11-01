@@ -1,0 +1,33 @@
+{
+  "incidence": {
+    "cross_chunk_duplicates": 2218324,
+    "N1": {
+      "units_in": 775499,
+      "units_kept": 775499,
+      "records_kept": 21791750,
+      "dropped_no_sampling_unit": 0,
+      "cells_with_data": 16684
+    },
+    "N3": {
+      "units_in": 775499,
+      "units_kept": 632893,
+      "records_kept": 21585175,
+      "dropped_no_sampling_unit": 0,
+      "cells_with_data": 15598
+    },
+    "N5": {
+      "units_in": 775499,
+      "units_kept": 574134,
+      "records_kept": 21312359,
+      "dropped_no_sampling_unit": 0,
+      "cells_with_data": 14894
+    },
+    "N10": {
+      "units_in": 775499,
+      "units_kept": 435088,
+      "records_kept": 20018510,
+      "dropped_no_sampling_unit": 0,
+      "cells_with_data": 13079
+    }
+  }
+}

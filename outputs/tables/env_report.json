@@ -1,0 +1,101 @@
+{
+  "table": "env.parquet",
+  "cells": 32676,
+  "cells_complete_predictors": 32676,
+  "cells_with_any_null": {},
+  "valid_frac": {
+    "chelsa_valid_frac": {
+      "count": 32676.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "min": 1.0,
+      "1%": 1.0,
+      "5%": 1.0,
+      "50%": 1.0,
+      "max": 1.0
+    },
+    "dem_valid_frac": {
+      "count": 32676.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "min": 1.0,
+      "1%": 1.0,
+      "5%": 1.0,
+      "50%": 1.0,
+      "max": 1.0
+    },
+    "slope_valid_frac": {
+      "count": 32676.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "min": 1.0,
+      "1%": 1.0,
+      "5%": 1.0,
+      "50%": 1.0,
+      "max": 1.0
+    },
+    "lc_valid_frac": {
+      "count": 32676.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "min": 1.0,
+      "1%": 1.0,
+      "5%": 1.0,
+      "50%": 1.0,
+      "max": 1.0
+    }
+  },
+  "valid_frac_below": {
+    "chelsa_valid_frac": {
+      "0.5": 0,
+      "0.9": 0,
+      "0.99": 0
+    },
+    "dem_valid_frac": {
+      "0.5": 0,
+      "0.9": 0,
+      "0.99": 0
+    },
+    "slope_valid_frac": {
+      "0.5": 0,
+      "0.9": 0,
+      "0.99": 0
+    },
+    "lc_valid_frac": {
+      "0.5": 0,
+      "0.9": 0,
+      "0.99": 0
+    }
+  },
+  "lc_fraction_sum_max_abs_dev": 4.440892098500626e-16,
+  "plausibility_flags": [
+    "bio02: observed [1.4, 16.82] outside plausible [3, 25]",
+    "bio07: observed [2.854, 49.22] outside plausible [5, 50]",
+    "bio08: observed [-29.32, 34.75] outside plausible [-25, 36]",
+    "bio19: observed [1.319, 5402] outside plausible [0, 3000]",
+    "elev_min: observed [-93, 5548] outside plausible [-60, 7500]"
+  ],
+  "grid_omissions": {
+    "boundary_parts_without_any_cell": 21,
+    "their_area_km2": 390.7,
+    "by_region": {
+      "Andaman Islands": {
+        "parts": 5,
+        "area_km2": 105.2
+      },
+      "Lakshadweep": {
+        "parts": 11,
+        "area_km2": 34.1
+      },
+      "Nicobar Islands": {
+        "parts": 3,
+        "area_km2": 148.4
+      },
+      "Sundarbans delta": {
+        "parts": 2,
+        "area_km2": 103.0
+      }
+    },
+    "india_land_outside_kept_cells_km2": 22750
+  }
+}

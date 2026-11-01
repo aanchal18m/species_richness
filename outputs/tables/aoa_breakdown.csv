@@ -1,0 +1,19 @@
+breakdown,group,cells,inside_aoa,share_inside,median_di
+record_status,Andaman & Nicobar (excluded),19,2,0.1053,0.445
+record_status,no records,17078,15014,0.8791,0.13
+record_status,"records, poorly sampled",12343,12089,0.9794,0.114
+record_status,training-eligible,3236,3236,1.0,0.0
+lat_band (non-eligible cells),"[10, 15)",1999,1952,0.9765,0.109
+lat_band (non-eligible cells),"[15, 20)",5280,5260,0.9962,0.12
+lat_band (non-eligible cells),"[20, 25)",9838,9683,0.9842,0.113
+lat_band (non-eligible cells),"[25, 30)",8642,8304,0.9609,0.123
+lat_band (non-eligible cells),"[30, 35)",2575,1637,0.6357,0.294
+lat_band (non-eligible cells),"[35, 40)",870,47,0.054,0.536
+lat_band (non-eligible cells),"[5, 10)",236,222,0.9407,0.16
+elev_band (non-eligible cells),"[-100, 200)",9569,9350,0.9771,0.115
+elev_band (non-eligible cells),"[1000, 2000)",918,827,0.9009,0.202
+elev_band (non-eligible cells),"[200, 500)",10889,10853,0.9967,0.114
+elev_band (non-eligible cells),"[2000, 3000)",477,328,0.6876,0.289
+elev_band (non-eligible cells),"[3000, 4000)",593,211,0.3558,0.433
+elev_band (non-eligible cells),"[4000, 9000)",1826,393,0.2152,0.495
+elev_band (non-eligible cells),"[500, 1000)",5168,5143,0.9952,0.117

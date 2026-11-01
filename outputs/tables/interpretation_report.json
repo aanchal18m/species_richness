@@ -1,0 +1,96 @@
+{
+  "shap_additivity_error": 5.4711790653527714e-12,
+  "expected_value": 105.45230545825845,
+  "rank_agreement_spearman": 0.9514,
+  "top_predictors": [
+    "lc_built",
+    "bio19",
+    "bio15",
+    "lc_water",
+    "bio14",
+    "bio09",
+    "elev_mean"
+  ],
+  "interior_peak_test_min_drop": 1.631890325900111,
+  "peaks": {
+    "lc_built": {
+      "peak_bin": 0,
+      "peak_x": 0.0002643384170269911,
+      "rise_from_low_end": 0.0,
+      "fall_to_high_end": 19.272275747151966,
+      "interior_peak": false
+    },
+    "bio19": {
+      "peak_bin": 0,
+      "peak_x": 3.5258001113210096,
+      "rise_from_low_end": 0.0,
+      "fall_to_high_end": 10.251993188385576,
+      "interior_peak": false
+    },
+    "bio15": {
+      "peak_bin": 9,
+      "peak_x": 148.7790715194729,
+      "rise_from_low_end": 11.114565490746742,
+      "fall_to_high_end": 0.0,
+      "interior_peak": false
+    },
+    "lc_water": {
+      "peak_bin": 9,
+      "peak_x": 0.13824079063270506,
+      "rise_from_low_end": 8.844802893934524,
+      "fall_to_high_end": 0.0,
+      "interior_peak": false
+    },
+    "bio14": {
+      "peak_bin": 0,
+      "peak_x": 0.40612110618589387,
+      "rise_from_low_end": 0.0,
+      "fall_to_high_end": 8.691995767738735,
+      "interior_peak": false
+    },
+    "bio09": {
+      "peak_bin": 0,
+      "peak_x": 12.889222205572043,
+      "rise_from_low_end": 0.0,
+      "fall_to_high_end": 7.288712915250066,
+      "interior_peak": false
+    },
+    "elev_mean": {
+      "peak_bin": 8,
+      "peak_x": 784.593090853208,
+      "rise_from_low_end": 5.268077287216546,
+      "fall_to_high_end": 0.8738149910693931,
+      "interior_peak": false
+    }
+  },
+  "effort": {
+    "observed_vs_T": {
+      "rho": 0.0573,
+      "ci95": [
+        0.0021,
+        0.1125
+      ]
+    },
+    "residual_vs_T": {
+      "rho": 0.1027,
+      "ci95": [
+        0.0603,
+        0.1471
+      ]
+    },
+    "lc_built_vs_T": {
+      "rho": 0.1649,
+      "ci95": [
+        0.1065,
+        0.2238
+      ]
+    },
+    "shap_lc_built_vs_T": {
+      "rho": -0.1219,
+      "ci95": [
+        -0.1794,
+        -0.0622
+      ]
+    }
+  }
+}

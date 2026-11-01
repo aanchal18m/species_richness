@@ -1,0 +1,20 @@
+{
+  "c3": 0.9207,
+  "c3_bar": 0.5,
+  "meets_bar": true,
+  "non_eligible_cells": 29440,
+  "non_eligible_inside": 27105,
+  "threshold_di": 0.3729730879589088,
+  "dbar": 26.217317058329225,
+  "training_di_quantiles": {
+    "0.25": 0.11505638456635506,
+    "0.5": 0.159062845179254,
+    "0.75": 0.21823838705962378,
+    "0.95": 0.36269885292149556
+  },
+  "training_cells_inside_by_own_di": 0.9555006180469716,
+  "final_rf_params": {
+    "max_features": 0.33,
+    "min_samples_leaf": 1
+  }
+}

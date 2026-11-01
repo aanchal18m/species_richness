@@ -1,0 +1,16 @@
+scheme,fold,test_cells,test_blocks
+spatial_residual,0,648,61.0
+spatial_residual,1,647,60.0
+spatial_residual,2,647,60.0
+spatial_residual,3,647,60.0
+spatial_residual,4,647,60.0
+spatial_response,0,645,7.0
+spatial_response,1,651,6.0
+spatial_response,2,643,8.0
+spatial_response,3,648,7.0
+spatial_response,4,649,7.0
+random,0,648,
+random,1,647,
+random,2,647,
+random,3,647,
+random,4,647,

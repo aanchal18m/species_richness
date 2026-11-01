@@ -1,0 +1,8 @@
+{
+  "frozen": "2026-10-06T11:28:17",
+  "note": "Gate 2 (2026-10-06): 3,236 training-eligible of 32,676 cells; 22 predictors; response richness_c090 (N=3, coverage >= 0.90, T >= 20); A&N excluded from training.",
+  "files": {
+    "model_table.parquet": "b8e1903f9bdc1e8657b3b31ef2df64b507c70cdf07b1ae160fe6d0aba8925b5a",
+    "predictors.json": "8bd021f432ef29c36d86d53734459cd7584141ff3b058ff2582024b7a5071d21"
+  }
+}
